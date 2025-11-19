@@ -1,0 +1,293 @@
+{
+  "perintah_default": [
+    "Kamu adalah desainer UI/UX dan frontend developer expert.",
+    "Buatkan SATU file HTML LENGKAP dengan CSS dan JavaScript FULLY INLINE.",
+    "Gunakan detail spesifik dari JSON berikut untuk mengimplementasikan desain:",
+    "- Gunakan warna EXACT seperti kode hex yang diberikan",
+    "- Implementasikan typography dengan font Poppins (import dari Google Fonts)",
+    "- Buat TEPAT 9 section dengan konten sesuai deskripsi di JSON",
+    "- Fokus pada animasi yang halus dan kompleks dengan easing natural",
+    "- Implementasikan semua efek hover yang disebutkan pada card dan tombol",
+    "- Gunakan gradient yang dinamis dan modern",
+    "- Terapkan shadow dan border-radius dengan nilai yang elegan",
+    "- Tambahkan dark mode toggle dengan transisi smooth",
+    "- Implementasikan scroll reveal animations dengan easing cubic-bezier(0.4, 0, 0.2, 1)",
+    "- Buat floating animations pada elemen decorative",
+    "- Tambahkan particle effects sederhana sebagai background element",
+    "- Implementasikan parallax effects yang subtle",
+    "- Pastikan transisi antara section smooth dan natural",
+    "- Optimalkan untuk mobile dan desktop",
+    "Hasil akhir harus single HTML file dengan semua resources inline."
+  ],
+  "detail_project": {
+    "nama_brand": "ortuseight",
+    "tipe_bisnis": "sepatu ",
+    "palet_warna": {
+      "nama_palet": "Playful Bright",
+      "primary": "#FF4E50",
+      "secondary": "#FC913A",
+      "accent": "#F9D423",
+      "background": "#FFFFFF",
+      "text_primary": "#1a202c",
+      "text_secondary": "#4a5568"
+    },
+    "gaya_desain": {
+      "nama_gaya": "Elegant Luxury",
+      "karakteristik": [
+        "Elegant typography",
+        "Ample white space",
+        "Gold accents",
+        "Premium imagery",
+        "Subtle animations"
+      ],
+      "typography": {
+        "font_primary": "Poppins, sans-serif",
+        "font_weights": {
+          "light": 300,
+          "normal": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700
+        },
+        "font_sizes": {
+          "xs": "0.75rem",
+          "sm": "0.875rem",
+          "base": "1rem",
+          "lg": "1.125rem",
+          "xl": "1.25rem",
+          "2xl": "1.5rem",
+          "3xl": "1.875rem",
+          "4xl": "2.25rem"
+        }
+      },
+      "spacing": {
+        "base_unit": "0.25rem",
+        "section_padding": "5rem 0",
+        "container_max_width": "1200px"
+      },
+      "effects": {
+        "shadow_small": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+        "shadow_medium": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+        "shadow_large": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "shadow_xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+        "border_radius": {
+          "sm": "0.125rem",
+          "base": "0.375rem",
+          "md": "0.5rem",
+          "lg": "0.75rem",
+          "xl": "1rem",
+          "2xl": "1.5rem",
+          "full": "9999px"
+        }
+      }
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "nama": "Hero Section",
+        "deskripsi": "Section pembuka yang menarik perhatian dengan headline kuat dan CTA",
+        "konten": [
+          "Headline utama yang mencerminkan value proposition",
+          "Subheadline penjelas",
+          "Call-to-Action button utama",
+          "Gambar atau ilustrasi hero",
+          "Animasi teks typing atau fade-in"
+        ],
+        "fitur_khusus": [
+          "Background gradient dinamis",
+          "Animasi scroll down indicator",
+          "Floating animation pada elemen visual"
+        ]
+      },
+      {
+        "id": "about",
+        "nama": "About Us",
+        "deskripsi": "Section tentang perusahaan dan statistik pencapaian",
+        "konten": [
+          "Deskripsi perusahaan/tokoh",
+          "Visi dan misi",
+          "Statistik pencapaian (angka-angka penting)",
+          "Gambar tim atau about"
+        ],
+        "fitur_khusus": [
+          "Animated counter untuk statistik",
+          "Hover effects pada card statistik",
+          "Scroll-triggered animations"
+        ]
+      },
+      {
+        "id": "services",
+        "nama": "Services/Products",
+        "deskripsi": "Menampilkan layanan atau produk yang ditawarkan",
+        "konten": [
+          "3-5 card layanan/produk",
+          "Ikon representatif untuk setiap layanan",
+          "Deskripsi singkat setiap layanan",
+          "Harga atau fitur utama"
+        ],
+        "fitur_khusus": [
+          "Card hover effects dengan scale transform",
+          "Gradient borders",
+          "Staggered animation pada card"
+        ]
+      },
+      {
+        "id": "portfolio",
+        "nama": "Portfolio/Projects",
+        "deskripsi": "Menampilkan karya atau project sebelumnya",
+        "konten": [
+          "Grid portfolio 3x3 atau 2x3",
+          "Filter kategori (jika ada)",
+          "Modal/popup detail project",
+          "Testimoni client (jika ada)"
+        ],
+        "fitur_khusus": [
+          "Masonry grid layout",
+          "Image hover effects dengan overlay",
+          "Lightbox untuk gambar portfolio"
+        ]
+      },
+      {
+        "id": "testimonials",
+        "nama": "Testimonials",
+        "deskripsi": "Testimoni dari klien atau customer",
+        "konten": [
+          "3-5 testimonial card",
+          "Foto client (atau avatar)",
+          "Nama dan perusahaan client",
+          "Rating bintang (jika applicable)"
+        ],
+        "fitur_khusus": [
+          "Testimonial carousel/slider",
+          "Fade animation antara testimonial",
+          "Parallax background effect"
+        ]
+      },
+      {
+        "id": "team",
+        "nama": "Our Team",
+        "deskripsi": "Memperkenalkan anggota tim",
+        "konten": [
+          "Foto anggota tim",
+          "Nama dan posisi",
+          "Deskripsi singkat expertise",
+          "Social media links"
+        ],
+        "fitur_khusus": [
+          "Team card flip animation",
+          "Social icon hover effects",
+          "Staggered appearance animation"
+        ]
+      },
+      {
+        "id": "contact",
+        "nama": "Contact",
+        "deskripsi": "Form kontak dan informasi kontak",
+        "konten": [
+          "Contact form (nama, email, pesan)",
+          "Informasi kontak (alamat, telepon, email)",
+          "Social media links",
+          "Embedded map (jika ada alamat fisik)"
+        ],
+        "fitur_khusus": [
+          "Form validation dengan smooth feedback",
+          "Floating labels pada form input",
+          "Success/error message animations"
+        ]
+      },
+      {
+        "id": "blog",
+        "nama": "Blog/News",
+        "deskripsi": "Artikel atau berita terbaru",
+        "konten": [
+          "3 artikel terbaru",
+          "Featured image untuk setiap artikel",
+          "Kategori dan tanggal publish",
+          "Read more buttons"
+        ],
+        "fitur_khusus": [
+          "Card hover dengan image zoom",
+          "Reading progress indicator",
+          "Smooth content transitions"
+        ]
+      },
+      {
+        "id": "footer",
+        "nama": "Footer",
+        "deskripsi": "Footer dengan informasi lengkap",
+        "konten": [
+          "Logo dan tagline",
+          "Quick links navigation",
+          "Social media links",
+          "Copyright information"
+        ],
+        "fitur_khusus": [
+          "Animated social icons",
+          "Back to top button dengan smooth scroll",
+          "Wave separator animation"
+        ]
+      }
+    ],
+    "fitur_teknis": {
+      "animasi": {
+        "hover_effects": [
+          "Scale transform pada card dan tombol",
+          "Color transitions dengan easing custom",
+          "Shadow depth changes",
+          "Border animations"
+        ],
+        "scroll_animations": [
+          "Fade up pada section elements",
+          "Slide in dari kiri/kanan",
+          "Staggered animations untuk lists",
+          "Easing: cubic-bezier(0.4, 0, 0.2, 1)"
+        ],
+        "special_effects": [
+          "Floating animations dengan keyframes",
+          "Particle effects sederhana sebagai background decoration",
+          "Parallax scrolling untuk background images",
+          "Gradient text animations"
+        ]
+      },
+      "interaktivitas": {
+        "dark_mode": {
+          "enabled": true,
+          "toggle_smooth": true,
+          "persist_preference": true
+        },
+        "form_handling": {
+          "real_time_validation": true,
+          "smooth_error_transitions": true,
+          "success_animations": true
+        },
+        "navigation": {
+          "smooth_scroll": true,
+          "active_section_highlight": true,
+          "mobile_menu_animations": true
+        }
+      },
+      "performance": {
+        "lazy_loading": true,
+        "optimized_animations": true,
+        "reduced_motion_support": true
+      }
+    },
+    "jumlah_section": 9,
+    "sumber_gambar": {
+      "type": "custom",
+      "mode": "folder",
+      "tipe_folder": "produk",
+      "contoh_struktur_file": [
+        "favicon.png",
+        "logo.png",
+        "hero.jpg",
+        "product-1.jpg",
+        "product-2.jpg",
+        "product-3.jpg",
+        "service-1.jpg",
+        "about.jpg"
+      ],
+      "format_rekomendasi": "WebP untuk optimal performance, fallback JPEG/PNG"
+    }
+  }
+}
